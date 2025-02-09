@@ -5,7 +5,7 @@ import random
 # Load the maxims dataset from GitHub
 @st.cache_data
 def load_data():
-    url = "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/conflict-maxims/main/conflict_maxims.json"
+    url = "https://raw.githubusercontent.com/procountry/conflict-maxims/main/conflict_maxims.json"
 df = pd.read_json(url)
     return df
 
