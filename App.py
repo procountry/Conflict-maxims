@@ -4,7 +4,7 @@ import random
 
 # Load the dataset
 def load_data():
-    url = "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/conflict-maxims/main/conflict_maxims.csv"  # Replace with actual raw URL
+    url = "https://raw.githubusercontent.com/procountry/conflict-maxims/main/conflict_maxims.csv"  # Replace with actual raw URL
     df = pd.read_csv(url)
     return df
 
