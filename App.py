@@ -5,7 +5,7 @@ import random
 # Load the maxims dataset from GitHub
 @st.cache_data
 def load_data():
-    url = "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/conflict-maxims/main/conflict_maxims.csv"  # Replace with your actual raw file URL
+    url = "https://raw.githubusercontent.com/procountry/conflict-maxims/main/conflict_maxims.csv"  # Replace with your actual raw file URL
     df = pd.read_csv(url)
     return df
 
