@@ -6,7 +6,7 @@ import random
 @st.cache_data
 def load_data():
     url = "https://raw.githubusercontent.com/procountry/conflict-maxims/main/conflict_maxims.json"
-df = pd.read_json(url)
+    df = pd.read_json(url)
     return df
 
 df = load_data()
